@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>ACVD UNACオペレーションカスタム共有ツール</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script>
+		window.onload = function(){
+			let layerNames = ['operation', 'category', 'action'];
+			let categoryNames = ['moving', 'right-arm', 'left-arm', 'shoulder', 'recognition', 'target-evaluation', 'dodge', 'special-moving', 'special-action'];
+			
+			let request = new XMLHttpRequest();
+			let url = './csv/operation/' + categoryNames[0];
+			request.open('GET', url);
+			request.onload = () => console.log(request.responseText);
+			request.send();
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
