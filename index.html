@@ -31,10 +31,9 @@
 				getCsv('parameters.csv').forEach(values => {
 					let id = values[0];
 					let name = values[1];
-					let default = values[2];
 					let parameters = values.splice(3);
 					let chip = chips.find(chip => chip.id == id);
-					chip.parameters.push({name, default, parameters});
+					chip.parameters.push({name, default: values[2], parameters});
 				});
 				
 				return chips;
