@@ -7,6 +7,9 @@
 			let layerNames = ['operation', 'category', 'action'];
 			let categoryNames = ['moving', 'right-arm', 'left-arm', 'shoulder', 'recognition', 'target-evaluation', 'dodge', 'special-moving', 'special-action'];
 			
+			let chips = {operation: {}, category: {}, action: {}};
+			categoryNames.forEach();
+			
 			let request = new XMLHttpRequest();
 			let url = './csv/category/' + categoryNames[0] + '/chips.csv';
 			request.open('GET', url);
