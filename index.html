@@ -48,7 +48,7 @@
 			categoryNames.forEach(name => chips.action[name] = load('action', name));
 			
 			console.log(chips);
-			document.getElementById('output').value = JSON.stringify(chips);
+			document.getElementById('output').value = JSON.stringify(chips, null, '\t');
 		}
 	</script>
 </head>
