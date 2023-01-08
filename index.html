@@ -11,6 +11,7 @@
 			let url = './csv/category/' + categoryNames[0] + '/chips.csv';
 			request.open('GET', url);
 			request.onload = () => console.log(request.responseText);
+			request.overrideMimeType('text/plain; charset=Shift_JIS');
 			request.send();
 		}
 	</script>
