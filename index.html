@@ -4,18 +4,24 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script>
 		window.onload = function(){
-			let layerNames = ['operation', 'category', 'action'];
 			let categoryNames = ['moving', 'right-arm', 'left-arm', 'shoulder', 'recognition', 'target-evaluation', 'dodge', 'special-moving', 'special-action'];
-			
 			let chips = {operation: {}, category: {}, action: {}};
-			categoryNames.forEach();
+			categoryNames.forEach(name => {chips.category[name] = {}; chips.action[name] = {}});
+			
+			
 			
 			let request = new XMLHttpRequest();
 			let url = './csv/category/' + categoryNames[0] + '/chips.csv';
-			request.open('GET', url);
-			request.onload = () => console.log(request.responseText);
+			request.open('GET', url, false);
 			request.overrideMimeType('text/plain; charset=Shift_JIS');
 			request.send();
+			
+			let csv = request.responseText.split('\n').splice(0, 1).filter(line => line != '');
+			csv.forEach(line => {
+				console.log(line);
+			});
+			
+			
 		}
 	</script>
 </head>
