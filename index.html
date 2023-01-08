@@ -29,10 +29,11 @@
 			let chips = {operation: [], category: {}, action: {}};
 			
 			chips.operation = load('operation');
-			chips.category[categoryNames[0]] = load('category', categoryNames[0]);
+			categoryNames.forEach(name => chips.category[name] = load('category', name));
+			categoryNames.forEach(name => chips.action[name] = load('action', name));
 			
-			
-			console.log(JSON.stringify(chips));
+			//console.log(JSON.stringify(chips));
+			console.log(chips);
 		}
 	</script>
 </head>
