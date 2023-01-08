@@ -47,11 +47,12 @@
 			categoryNames.forEach(name => chips.category[name] = load('category', name));
 			categoryNames.forEach(name => chips.action[name] = load('action', name));
 			
-			//console.log(JSON.stringify(chips));
 			console.log(chips);
+			document.getElementById('output').value = JSON.stringify(chips);
 		}
 	</script>
 </head>
 <body>
+	<textarea id="output"></textarea>
 </body>
 </html>
