@@ -5,14 +5,18 @@
 	<script>
 		window.onload = function(){
 			function load(...path){
-				let request = new XMLHttpRequest();
-				let url = ['.', 'csv'].concat(path, ['chips.csv']).join('/');
-				request.open('GET', url, false);
-				request.overrideMimeType('text/plain; charset=Shift_JIS');
-				request.send();
+				function getCsv(url){
+					console.log('Loading ' + path);
+					let request = new XMLHttpRequest();
+					request.open('GET', url, false);
+					request.overrideMimeType('text/plain; charset=Shift_JIS');
+					request.send();
+					let csv = request.responseText.split('\r\n').filter((line, index) => line != '' && index > 0);
+					return csv;
+				}
 				
-				let csv = request.responseText.split('\r\n').filter((line, index) => line != '' && index > 0);
-				let chips = csv.map(line => {
+				let url = ['.', 'csv'].concat(path, ['chips.csv']).join('/');
+				let chips = getCsv(url).map(line => {
 					let values = line.split(',');
 					let id = values[0];
 					let name = values[1];
@@ -22,6 +26,7 @@
 					let chip = {id, name, group, message, numberOfChips};
 					return chip;
 				});
+				
 				return chips;
 			}
 			
