@@ -16,9 +16,15 @@
 			request.overrideMimeType('text/plain; charset=Shift_JIS');
 			request.send();
 			
-			let csv = request.responseText.split('\n').filter((line, index) => index > 0).filter(line => line != '');
+			let csv = request.responseText.split('\n').splice(0, 1).filter(line => line != '');
 			csv.forEach(line => {
-				console.log(line);
+				let values = line.split(',');
+				let id = values[0];
+				let name = values[1];
+				let group = values[2];
+				let message = values[3];
+				let numberOfChips = values[4];
+				chips.category[categoryNames[0]] = {id, name, group, message, numberOfChips};
 			});
 			
 			
