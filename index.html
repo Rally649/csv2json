@@ -8,7 +8,7 @@
 			let categoryNames = ['moving', 'right-arm', 'left-arm', 'shoulder', 'recognition', 'target-evaluation', 'dodge', 'special-moving', 'special-action'];
 			
 			let request = new XMLHttpRequest();
-			let url = './csv/operation/' + categoryNames[0] + '.csv';
+			let url = './csv/operation/' + categoryNames[1] + '.csv';
 			request.open('GET', url);
 			request.onload = () => console.log(request.responseText);
 			request.send();
