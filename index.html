@@ -17,17 +17,17 @@
 			request.send();
 			
 			let csv = request.responseText.split('\n').filter((line, index) => line != '' && index > 0);
-			csv.forEach(line => {
+			chips.category[categoryNames[0]] = csv.map(line => {
 				let values = line.split(',');
 				let id = values[0];
 				let name = values[1];
 				let group = values[2];
 				let message = values[3];
 				let numberOfChips = values[4];
-				chips.category[categoryNames[0]] = {id, name, group, message, numberOfChips};
+				let chip = {id, name, group, message, numberOfChips};
+				return chip;
 			});
 			console.log(chips);
-			
 		}
 	</script>
 </head>
