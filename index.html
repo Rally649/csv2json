@@ -6,7 +6,7 @@
 		window.onload = function(){
 			function load(...path){
 				let request = new XMLHttpRequest();
-				let url = concat(['.', 'csv'], path, ['chips.csv']).join('/');
+				let url = ['.', 'csv'].concat(path, ['chips.csv']).join('/');
 				request.open('GET', url, false);
 				request.overrideMimeType('text/plain; charset=Shift_JIS');
 				request.send();
