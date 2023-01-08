@@ -1,0 +1,18 @@
+id,name,group,message
+0,EXA GERD/EXBC2,ブーストチャージアクション:,ブーストチャージ用のチップです。セットすると、一定範囲内にターゲットがいる場合にブーストチャージを行います。
+1,EXA GERD/EXBC3,ブーストチャージアクション:,ブーストチャージ用のチップです。設定範囲が広く、より積極的にブーストチャージを行います。
+2,EXA JUST/EXSN2,スキャンモードアクション:,スキャンモード用のチップです。ENの残量を優先する、機動力優先型です。
+3,EXA JUST/EXSN3,スキャンモードアクション:,スキャンモード用のチップです。セットすると、ENの残量に応じてスキャンモードを起動・解除します。
+4,EXA JUST/EXSNX,スキャンモードアクション:,スキャンモード用のチップです。ENの残量を気にしない、戦闘優先型です。
+5,EXA KOCSIS/EXR10,リコンアクション:,RECON用のチップです。セットすると、一定時間ごとにRECONを射出します。
+6,EXA KOCSIS/EXR20,リコンアクション:,RECON用のチップです。発射間隔の短い高頻度型です。
+7,EXA KOCSIS/EXR30,リコンアクション:,RECON用のチップです。発射間隔の長い低頻度型です。
+8,EXA ADEMIR/EXP-D,強制パージアクション:,ターゲットとの距離によって、指定したARM UNITを強制的にパージするチップです。
+9,EXA ADEMIR/EXP-T,強制パージアクション:,ターゲットとの距離と属性・防御力によって、指定したARM UNITを強制的にパージするチップです。
+10,EXA-ADEMIR/EXP-L,強制パージアクション:,ターゲットとの距離と、脚部タイプによって、指定したARM UNITを強制的にパージするチップです。
+11,WXA EUSEBIO/X0,オーバードウェポンアクション:,OVERED WEAPON用のチップです。GRIND BLADEの使用に適しています。
+12,WXA EUSEBIO/X1,オーバードウェポンアクション:,OVERED WEAPON用のチップです。MASS BLADEの使用に適しています。
+13,WXA EUSEBIO/X2,オーバードウェポンアクション:,OVERED WEAPON用のチップです。HUGE CANNONの使用に適しています。
+14,WXA EUSEBIO/X3,オーバードウェポンアクション:,OVERED WEAPON用のチップです。MULTIPLE PULSEの使用に適しています。
+15,WXA EUSEBIO/X4,オーバードウェポンアクション:,OVERED WEAPON用のチップです。HUGE MISSILEの使用に適しています。
+16,WXA EUSEBIO/X5,オーバードウェポンアクション:,OVERED WEAPON用のチップです。HUGE BLADEの使用に適しています。

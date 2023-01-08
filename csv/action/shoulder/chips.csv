@@ -1,0 +1,22 @@
+id,name,group,message
+0,SU EDGAR/S1MSL,肩部攻撃アクション:[ミサイル][単発],単発型のMISSILEの使用に適したチップです。近距離戦向けに設定されています。
+1,SU EDGAR/S2MSL,肩部攻撃アクション:[ミサイル][単発],単発型のMISSILEの使用に適したチップです。近?中距離戦向けに設定されています。
+2,SU EDGAR/S3MSL,肩部攻撃アクション:[ミサイル][単発],単発型のMISSILEの使用に適したチップです。中?遠距離戦向けに設定されています。
+3,SU EDGAR/S4MSL,肩部攻撃アクション:[ミサイル][単発],単発型のMISSILEの使用に適したチップです。遠距離戦向けに設定されています。
+4,SU REMBRNDT/S1MMS,肩部攻撃アクション:[ミサイル],近距離戦向けのMISSILE用チップです。SHORT RANGE MISSILEなどに最も適しています。
+5,SU REMBRNDT/S2MMS,肩部攻撃アクション:[ミサイル],近?中距離戦向けのMISSILE用チップです。MIDDLE MISSILEなどに最も適しています。
+6,SU REMBRNDT/S3MMS,肩部攻撃アクション:[ミサイル],中?遠距離戦向けのMISSILE用チップです。VERTICAL MISSILEなどに最も適しています。
+7,SU REMBRNDT/S4MMS,肩部攻撃アクション:[ミサイル],遠距離戦向けのMISSILE用チップです。HIGH SPEED MISSILEなどに最も適しています。
+8,SU FERDINAND/S1RKB,肩部攻撃アクション:[ノーロック],ROCKET、BOMB DISPENSERの使用に適したチップです。近距離戦向けに設定されています。
+9,SU FERDINAND/S2RKB,肩部攻撃アクション:[ノーロック],ROCKET、BOMB DISPENSERの使用に適したチップです。距離が調整され、近?中距離戦向けに設定されています。
+10,SU FERDINAND/S3RKB,肩部攻撃アクション:[ノーロック],ROCKETの使用に適したチップです。中?遠距離戦向けに設定されています。
+11,SU FERDINAND/S4RKB,肩部攻撃アクション:[ノーロック],ROCKETの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。
+12,SU PAUL/S1CHF,肩部攻撃アクション:[チャフ],OPTICAL CHAFFの使用に適したチップです。近距離戦向けに設定されています。
+13,SU PAUL/S3CHF,肩部攻撃アクション:[チャフ],OPTICAL CHAFFの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。
+14,SU PAUL/S5CHF,肩部攻撃アクション:[チャフ],OPTICAL CHAFFの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。
+15,SU HENRI/S2CGN,肩部攻撃アクション:[カウンターガン],COUNTER GUNの使用に適したチップです。近距離戦向けに設定されています。
+16,SU HENRI/S3CGN,肩部攻撃アクション:[カウンターガン],COUNTER GUNの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。
+17,SU SALVADOR/S2CGE,肩部攻撃アクション:[カウンターガン][EN],TE属性のCOUNTER GUNの使用に適したチップです。近距離戦向けに設定されています。
+18,SU SALVADOR/S3CGE,肩部攻撃アクション:[カウンターガン][EN],TE属性のCOUNTER GUNの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。
+19,SU PIETER/S2CWS,肩部攻撃アクション:[CIWS],CIWSの使用に適したチップです。近距離戦向けに設定されています。
+20,SU PIETER/S4CWS,肩部攻撃アクション:[CIWS],CIWSの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。

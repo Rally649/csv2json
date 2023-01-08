@@ -1,0 +1,36 @@
+id,name,group,message
+0,LA JAMES/L1STD,左腕攻撃アクション:[汎用],近距離戦向けの一般的なARM UNIT用チップです。HAND GUNなどに最も適しています。
+1,LA JAMES/L2STD,左腕攻撃アクション:[汎用],近～中距離戦向けの一般的なARM UNIT用チップです。BATTLE RIFLEなどに最も適しています。
+2,LA JAMES/L3STD,左腕攻撃アクション:[汎用],中～遠距離戦向けの一般的なARM UNIT用チップです。RIFLEなどに最も適しています。
+3,LA JAMES/L4STD,左腕攻撃アクション:[汎用],遠距離戦向けの一般的なARM UNIT用チップです。SNIPER RIFLEなどに最も適しています。
+4,LA JACK/L1NLC,左腕攻撃アクション:[ノーロック],HEAT HOWITZERの使用に適したチップです。近距離向けに設定されています。
+5,LA JACK/L2NLC,左腕攻撃アクション:[ノーロック],HEAT HOWITZERの使用に適したチップです。距離・角度が調整され、近～中距離向けに設定されています。
+6,LA MAX/L1ENS,左腕攻撃アクション:[EN],TE属性のARM UNIT用チップです。近距離向けに設定されており、PULSE GUNなどに最も適しています。
+7,LA MAX/L2ENS,左腕攻撃アクション:[EN],TE属性のARM UNIT用チップです。近～中距離向けに設定されており、PULSE MACHINEGUNなどに最も適しています。
+8,LA MAX/L3ENS,左腕攻撃アクション:[EN],TE属性のARM UNIT用チップです。中～遠距離向けに設定されており、PLASMA GUNなどに最も適しています。
+9,LA MAX/L4ENS,左腕攻撃アクション:[EN],TE属性のARM UNIT用チップです。遠距離向けに設定されており、LASER RIFLEなどに最も適しています。
+10,LA LARRY/L1CHG,左腕攻撃アクション:[EN][チャージ],LASER RIFLEの使用に適したチップです。近距離戦向けに設定されています。
+11,LA LARRY/L2CHG,左腕攻撃アクション:[EN][チャージ],LASER RIFLEの使用に適したチップです。距離が調整され、近～中距離戦向けに設定されています。
+12,LA LARRY/L3CHG,左腕攻撃アクション:[EN][チャージ],LASER RIFLEの使用に適したチップです。距離が調整され、中～遠距離戦向けに設定されています。
+13,LA LARRY/L4CHG,左腕攻撃アクション:[EN][チャージ],LASER RIFLEの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。
+14,LA EZZARD/L1FIX,左腕攻撃アクション:[構え],構えが発生するARM UNIT用チップです。近距離戦向けに設定されており、AUTO CANNONなどに最も適しています。
+15,LA EZZARD/L2FIX,左腕攻撃アクション:[構え],構えが発生するARM UNIT用チップです。近～中距離戦向けに設定されており、HEAT CANNONなどに最も適しています。
+16,LA EZZARD/L3FIX,左腕攻撃アクション:[構え],構えが発生するARM UNIT用チップです。中～遠距離戦向けに設定されており、CANNONなどに最も適しています。
+17,LA EZZARD/L4FIX,左腕攻撃アクション:[構え],構えが発生するARM UNIT用チップです。遠距離戦向けに設定されており、LASER CANNON、RAIL CANNONなどに最も適しています。
+18,LA LENNOX/L1FXN,左腕攻撃アクション:[構え][ノーロック],HOWITZERの使用に適したチップです。近距離向けに設定されています。
+19,LA LENNOX/L2FXN,左腕攻撃アクション:[構え][ノーロック],HOWITZERの使用に適したチップです。距離・角度が調整され、近～中距離向けに設定されています。
+20,LA LENNOX/L3FXN,左腕攻撃アクション:[構え][ノーロック],SNIPER CANNONの使用に適したチップです。中～遠距離戦向けに設定されています。
+21,LA LENNOX/L4FXN,左腕攻撃アクション:[構え][ノーロック],SNIPER CANNONの使用に適したチップです。距離・角度が調整され、遠距離戦向けに設定されています。
+22,LA LENNOX/L5FXN,左腕攻撃アクション:[構え][ノーロック],SNIPER CANNONの使用に適したチップです。距離・角度が調整され、超遠距離戦向けに設定されています。
+23,LA PRIMO/L1FXE,左腕攻撃アクション:[構え][EN],PULSE CANNONの使用に適したチップです。近距離戦向けに設定されています。
+24,LA PRIMO/L2FXE,左腕攻撃アクション:[構え][EN],PULSE CANNONの使用に適したチップです。距離が調整され、近～中距離戦向けに設定されています。
+25,LA EVANDER/L3FXC,左腕攻撃アクション:[構え][EN][チャージ],LASER CANNON、RAIL CANNONの使用に適したチップです。中～遠距離戦向けに設定されています。
+26,LA EVANDER/L4FXC,左腕攻撃アクション:[構え][EN][チャージ],LASER CANNON、RAIL CANNONの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。
+27,LA EVANDER/L5FXC,左腕攻撃アクション:[構え][EN][チャージ],LASER CANNON、RAIL CANNONの使用に適したチップです。距離が調整され、超遠距離戦向けに設定されています。
+28,LA CASSIUS/L1FTE,左腕攻撃アクション:[格闘][EN],LASER BLADEの使用に適したチップです。
+29,LA MICHAEL/L1FGT,左腕攻撃アクション:[格闘],HEAT PILE、BLADEの使用に適したチップです。
+30,LA JOE/L1SNS,左腕攻撃アクション:[セントリー],SENTRY GUNの使用に適したチップです。近距離戦向けに設定されています。
+31,LA JOE/L2SNS,左腕攻撃アクション:[セントリー],SENTRY GUNの使用に適したチップです。近～中距離戦向けに設定されています。
+32,LA JOE/L3SNS,左腕攻撃アクション:[セントリー],SENTRY GUNの使用に適したチップです。MISSILEタイプを想定し、中～遠距離戦向けに設定されています。
+33,LA JOE/L4SNS,左腕攻撃アクション:[セントリー],SENTRY GUNの使用に適したチップです。MISSILEタイプを想定し、遠距離戦向けに設定されています。
+34,LA VITALI/LS-A,左腕攻撃アクション:[シールド],SHIELDの使用に適したチップです。
