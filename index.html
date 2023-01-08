@@ -5,8 +5,9 @@
 	<script>
 		window.onload = function(){
 			function load(...path){
-				function getCsv(url){
-					console.log('Loading ' + path);
+				function getCsv(fileName){
+					let url = ['.', 'csv'].concat(path, [fileName]).join('/');
+					console.log('Loading ' + path.join('/'));
 					let request = new XMLHttpRequest();
 					request.open('GET', url, false);
 					request.overrideMimeType('text/plain; charset=Shift_JIS');
@@ -15,16 +16,25 @@
 					return csv;
 				}
 				
-				let url = ['.', 'csv'].concat(path, ['chips.csv']).join('/');
-				let chips = getCsv(url).map(line => {
+				let chips = getCsv('chips.csv').map(line => {
 					let values = line.split(',');
 					let id = values[0];
 					let name = values[1];
 					let group = values[2];
 					let message = values[3];
 					let numberOfChips = values[4];
-					let chip = {id, name, group, message, numberOfChips};
+					let parameters = [];
+					let chip = {id, name, group, message, numberOfChips, parameters};
 					return chip;
+				});
+				
+				getCsv('parameters.csv').forEach(values => {
+					let id = values[0];
+					let name = values[1];
+					let default = values[2];
+					let parameters = values.splice(3);
+					let chip = chips.find(chip => chip.id == id);
+					chip.parameters.push({name, default, parameters});
 				});
 				
 				return chips;
