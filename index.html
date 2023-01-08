@@ -37,6 +37,8 @@
 					chip.parameters.push({name, default: values[2], parameters});
 				});
 				
+				chips.forEach(chip => delete chip.id);
+				
 				return chips;
 			}
 			
