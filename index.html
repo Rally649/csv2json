@@ -16,7 +16,7 @@
 			request.overrideMimeType('text/plain; charset=Shift_JIS');
 			request.send();
 			
-			let csv = request.responseText.split('\n').splice(0, 1).filter(line => line != '');
+			let csv = request.responseText.split('\n').filter((line, index) => index > 0).filter(line => line != '');
 			csv.forEach(line => {
 				console.log(line);
 			});
