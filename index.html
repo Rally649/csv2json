@@ -32,9 +32,9 @@
 					let values = line.split(',');
 					let id = values[0];
 					let name = values[1];
-					let values = values.filter((v, index) => index >= 3);
+					let parameters = values.filter((v, index) => index >= 3);
 					let chip = chips.find(chip => chip.id == id);
-					chip.parameters.push({name, default: values[2], values});
+					chip.parameters.push({name, default: values[2], values: parameters});
 				});
 				
 				chips.forEach(chip => delete chip.id);
